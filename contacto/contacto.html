@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Formulario de contacto con foto circular centrada</title>
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+        
+        .circle {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            overflow: hidden;
+            margin-bottom: 20px;
+        }
+        
+        .circle img {
+            width: 100%;
+            height: auto;
+            object-fit: cover;
+        }
+        
+        .form-group {
+            margin-bottom: 20px;
+        }
+        
+        .form-group label {
+            display: block;
+            font-weight: bold;
+            margin-bottom: 5px;
+        }
+        
+        .form-group input[type="text"], .form-group textarea {
+            width: 100%;
+            padding: 10px;
+            font-size: 16px;
+        }
+        
+        .form-group button {
+            padding: 10px 20px;
+            font-size: 16px;
+        }
+    </style>
+</head>
+<body>
+    
+    <div>
+        <h1>Contacto</h1>
+        <div class="circle">
+            <img src="../img/Roberto.jpg" alt="Foto de perfil">
+        </div>
+        <form   >
+            <div class="form-group">
+                <label for="nombre">Nombres y Apellidos</label>
+                <a> Milton Roberto Cuji Revelo</a>
+                <label for="Direccion">Direccion</label>
+                <a> Cuarteles Amaguania (Barrio la Providencia) OE1-194</a>
+                <label for="email">Email</label>
+                <a> miltoncuji@gmail.com</a>
+                <label for="contacto">Contactos:</label>
+                <a> 0983251441 <br></a>
+                <br><br><br><br>
+                <a href="../index.html" class="Boton" id="regresar">Regresar</a>
+                
+            </div>
+            
+    </div>
+    
+</body>
+</html>
